@@ -104,9 +104,9 @@ int SendEmailAuto(const char *to, const char *subject, const char *body) {
     CURLcode res;
 
     // Sender credentials
-    const char *from = "agrcatada@universityofbohol.edu.ph";
-    const char *user = "agrcatada@universityofbohol.edu.ph";
-    const char *app_password = "mxtk ghfk kxck gtnw";  // Your Gmail App Password
+    const char *from = "user@university.edu.ph";
+    const char *user = "user@university.edu.ph";
+    const char *app_password = "xxxx xxxx xxxx xxxx";  // Your Gmail App Password
 
     curl = curl_easy_init();
     if (!curl)
